@@ -1,0 +1,1802 @@
+[00:00:05.175] Server  LOG     ✓ Ready in 3.8s
+[00:00:13.734] Server  LOG     ○ Compiling / ...
+[00:00:27.148] Server  ERROR   ⨯ ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:00:29.415] Browser ERROR   uncaughtError: Error: ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:00:29.650] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:00:30.132] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:00:41.145] Server  ERROR   ⨯ ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:00:41.386] Browser ERROR   uncaughtError: Error: ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+
+[00:00:41.569] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:00:41.570] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:00:43.984] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:00:44.102] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:00:47.349] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:00:58.354] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:06.361] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.350] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.350] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.351] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.351] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.351] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.351] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.351] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.351] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.352] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.352] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.352] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.352] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.356] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.356] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.357] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.357] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.357] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.357] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.357] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.357] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.357] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.357] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.358] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.358] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.358] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.358] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.358] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.358] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.358] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.358] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.359] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.359] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.359] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.359] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.359] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.359] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.359] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.359] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.360] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.360] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.360] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.360] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.360] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.360] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.360] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.360] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.361] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.361] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.361] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.361] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:01:13.361] Browser ERROR   ./src/utils/tools.ts:304:10
+Parsing ecmascript source code failed
+  302 |   Focus,
+  303 |   Aperture,
+> 304 |   Camera as CameraIcon,
+      |          ^^
+  305 |   CameraOff,
+  306 |   Video as VideoIcon,
+  307 |   VideoOff,
+
+Unexpected token `as`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Server Component:
+    ./src/utils/tools.ts
+    ./src/app/page.tsx
+
+  Client Component Browser:
+    ./src/utils/tools.ts [Client Component Browser]
+    ./src/components/ToolCard.tsx [Client Component Browser]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/utils/tools.ts [Client Component SSR]
+    ./src/components/ToolCard.tsx [Client Component SSR]
+    ./src/components/ToolCard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
