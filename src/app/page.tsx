@@ -84,7 +84,7 @@ export default function Home() {
               Star on GitHub
               <span className="flex items-center gap-1 px-2 py-0.5 text-sm bg-yellow-500/20 text-yellow-400 rounded-full">
                 <Star className="w-3 h-3 fill-current" />
-                1.2k
+                <span>1.2k</span>
               </span>
             </a>
           </div>
@@ -94,7 +94,7 @@ export default function Home() {
       {/* Stats Section */}
       <section className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
         {[
-          { value: "30+", label: "Developer Tools" },
+          { value: "20+", label: "Developer Tools" },
           { value: "100%", label: "Client-Side" },
           { value: "0", label: "Data Collected" },
           { value: "∞", label: "Free Forever" },
@@ -147,7 +147,7 @@ export default function Home() {
           <button className="px-4 py-2 rounded-full bg-blue-500 text-white text-sm font-medium">
             All
           </button>
-          {categories.map((category) => (
+          {categories.map((category: {id: string, name: string}) => (
             <button
               key={category.id}
               className="px-4 py-2 rounded-full bg-white/5 text-zinc-400 hover:text-white hover:bg-white/10 text-sm font-medium transition-all"
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          {categories.map((category, index) => {
+          {categories.map((category: {id: string, name: string, icon: typeof Zap, bgColor: string, gradient: string}, index: number) => {
             const count = tools.filter((t) => t.category === category.id).length;
             const IconComponent = category.icon;
             return (

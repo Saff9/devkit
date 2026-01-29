@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Tool, categories } from '@/utils/tools';
-import * as Icons from 'lucide-react';
+import { ArrowRight, Flame } from 'lucide-react';
 import { LucideIcon } from 'lucide-react';
 
 interface ToolCardProps {
@@ -11,8 +11,8 @@ interface ToolCardProps {
 }
 
 export default function ToolCard({ tool, index = 0 }: ToolCardProps) {
-  const category = categories.find(c => c.id === tool.category);
-  const IconComponent = (Icons[tool.icon as keyof typeof Icons] as LucideIcon) || Icons.Box;
+  const category = categories.find((c: {id: string}) => c.id === tool.category);
+  const IconComponent: LucideIcon = tool.icon;
   
   return (
     <Link
@@ -49,8 +49,14 @@ export default function ToolCard({ tool, index = 0 }: ToolCardProps) {
                 {category?.name}
               </span>
               
+              {tool.new && (
+                <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-green-500/20 text-green-400">
+                  NEW
+                </span>
+              )}
+              
               {/* Arrow indicator */}
-              <Icons.ArrowRight className="w-4 h-4 text-zinc-600 group-hover:text-blue-400 group-hover:translate-x-1 transition-all opacity-0 group-hover:opacity-100" />
+              <ArrowRight className="w-4 h-4 text-zinc-600 group-hover:text-blue-400 group-hover:translate-x-1 transition-all opacity-0 group-hover:opacity-100" />
             </div>
           </div>
         </div>
@@ -59,7 +65,7 @@ export default function ToolCard({ tool, index = 0 }: ToolCardProps) {
         {tool.popular && (
           <div className="absolute top-3 right-3">
             <span className="flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-yellow-500/20 text-yellow-400 border border-yellow-500/30">
-              <Icons.Flame className="w-3 h-3" />
+              <Flame className="w-3 h-3" />
               Popular
             </span>
           </div>
