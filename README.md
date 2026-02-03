@@ -22,7 +22,7 @@
 
 ## ✨ What is DevKit?
 
-**DevKit** is a comprehensive collection of **30+ free developer tools** designed to boost your productivity. All tools run entirely in your browser — no data is ever sent to servers, ensuring complete privacy and security.
+**DevKit** is a comprehensive collection of **40+ free developer tools** designed to boost your productivity. All tools run entirely in your browser — no data is ever sent to servers, ensuring complete privacy and security.
 
 ### 🎯 Key Features
 
@@ -33,6 +33,8 @@
 - 🆓 **Free Forever** - No subscriptions, no hidden fees
 - 🌐 **PWA Ready** - Install as a desktop/mobile app
 - ♿ **Accessible** - WCAG 2.1 AA compliant
+- ⭐ **Favorites** - Pin your most-used tools for quick access
+- 📜 **Recently Used** - Quick access to recently accessed tools
 
 ---
 
@@ -42,7 +44,9 @@
 | Tool | Description |
 |------|-------------|
 | [JSON Formatter](https://devkit-peach.vercel.app/json-formatter) | Format, validate, and beautify JSON data |
-| [JSON to TypeScript](https://devkit-peach.vercel.app/json-to-ts) | Convert JSON to TypeScript interfaces |
+| [JSON Validator](https://devkit-peach.vercel.app/json-formatter) | Validate JSON syntax and structure |
+| [JSON to TypeScript](https://devkit-peach.vercel.app/json-to-ts) ✨ NEW | Convert JSON to TypeScript interfaces |
+| [JSON to CSV](https://devkit-peach.vercel.app/json-to-csv) ✨ NEW | Convert JSON data to CSV format |
 
 ### 🟩 Web & API Tools
 | Tool | Description |
@@ -52,6 +56,8 @@
 | [URL Encoder/Decoder](https://devkit-peach.vercel.app/url-encoder) | Encode/decode URL parameters |
 | [HTML Encoder/Decoder](https://devkit-peach.vercel.app/html-encoder) | Encode/decode HTML entities |
 | [Curl Converter](https://devkit-peach.vercel.app/curl-converter) | Convert curl to fetch/axios |
+| [YAML Converter](https://devkit-peach.vercel.app/yaml-converter) ✨ NEW | Convert between YAML and JSON |
+| [XML Formatter](https://devkit-peach.vercel.app/xml-formatter) ✨ NEW | Format and validate XML documents |
 
 ### 🟨 Developer Utilities
 | Tool | Description |
@@ -62,23 +68,65 @@
 | [Hash Generator](https://devkit-peach.vercel.app/hash-generator) | Generate MD5, SHA1, SHA256 hashes |
 | [UUID Generator](https://devkit-peach.vercel.app/uuid-generator) | Generate random UUIDs/GUIDs |
 | [Password Generator](https://devkit-peach.vercel.app/password-generator) | Generate secure random passwords |
-| [Cron Parser](https://devkit-peach.vercel.app/cron-parser) | Parse and explain cron expressions |
+| [Cron Parser](https://devkit-peach.vercel.app/cron-parser) ✨ NEW | Parse and explain cron expressions |
+| [Cron Generator](https://devkit-peach.vercel.app/cron-generator) ✨ NEW | Generate cron expressions visually |
+| [Number Base Converter](https://devkit-peach.vercel.app/number-base) ✨ NEW | Convert between binary, decimal, hex, octal |
 
 ### 🟧 Frontend Tools
 | Tool | Description |
 |------|-------------|
 | [Color Picker](https://devkit-peach.vercel.app/color-picker) | Pick colors and generate palettes |
 | [Gradient Generator](https://devkit-peach.vercel.app/gradient-generator) | Create beautiful CSS gradients |
-| [CSS Minifier](https://devkit-peach.vercel.app/css-minifier) | Minify CSS code |
+| [CSS Grid Generator](https://devkit-peach.vercel.app/css-grid-generator) ✨ NEW | Generate CSS Grid layouts visually |
+| [Box Shadow Generator](https://devkit-peach.vercel.app/box-shadow-generator) ✨ NEW | Create CSS box shadows |
+| [SVG to JSX](https://devkit-peach.vercel.app/svg-to-jsx) ✨ NEW | Convert SVG to React JSX components |
 
 ### 🟥 Productivity
 | Tool | Description |
 |------|-------------|
 | [Markdown Previewer](https://devkit-peach.vercel.app/markdown-previewer) | Live preview Markdown |
 | [Case Converter](https://devkit-peach.vercel.app/case-converter) | Convert between naming conventions |
+| [Case Tester](https://devkit-peach.vercel.app/case-tester) ✨ NEW | Test text against different case formats |
 | [Text Sorter](https://devkit-peach.vercel.app/text-sorter) | Sort lines and remove duplicates |
 | [Lorem Ipsum](https://devkit-peach.vercel.app/lorem-ipsum) | Generate placeholder text |
+| [User Agent Parser](https://devkit-peach.vercel.app/user-agent-parser) ✨ NEW | Parse browser user agent strings |
+
+### 🔐 Security Tools
+| Tool | Description |
+|------|-------------|
 | [QR Code Generator](https://devkit-peach.vercel.app/qr-generator) | Generate QR codes |
+| [HMAC Generator](https://devkit-peach.vercel.app/hmac-generator) ✨ NEW | Generate HMAC signatures |
+| [BCrypt Generator](https://devkit-peach.vercel.app/bcrypt-generator) ✨ NEW | Generate BCrypt hash strings |
+
+### 📊 Data Tools
+| Tool | Description |
+|------|-------------|
+| [CSV/JSON Converter](https://devkit-peach.vercel.app/csv-json) ✨ NEW | Convert between CSV and JSON formats |
+| [CSV Table](https://devkit-peach.vercel.app/csv-table) ✨ NEW | View CSV data in a table format |
+| [Base32 Converter](https://devkit-peach.vercel.app/base32) ✨ NEW | Encode/decode Base32 strings |
+| [Hex Converter](https://devkit-peach.vercel.app/hex-converter) ✨ NEW | Convert between hex and text |
+
+### 🗄️ Database Tools
+| Tool | Description |
+|------|-------------|
+| [SQL Formatter](https://devkit-peach.vercel.app/sql-formatter) ✨ NEW | Format and beautify SQL queries |
+
+### 🌐 HTTP Tools
+| Tool | Description |
+|------|-------------|
+| [HTTP Status Codes](https://devkit-peach.vercel.app/http-status-codes) ✨ NEW | Quick reference for HTTP status codes |
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `⌘K` / `Ctrl+K` | Open quick search |
+| `⌘C` / `Ctrl+C` | Copy to clipboard |
+| `⌘V` / `Ctrl+V` | Paste from clipboard |
+| `⌘/` / `Ctrl+/` | Clear current input |
+| `⌘S` / `Ctrl+S` | Swap input/output |
 
 ---
 
@@ -86,7 +134,7 @@
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
@@ -127,11 +175,24 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 DevKit features a premium glassmorphism design system:
 
-- **Dark theme** optimized for long coding sessions
+- **Dark/Light mode** - Toggle between themes for comfortable viewing
 - **Glass morphism** effects with backdrop blur
 - **Gradient accents** using blue-purple-cyan palette
 - **Smooth animations** and micro-interactions
 - **Responsive grid** that adapts to all screen sizes
+- **Syntax highlighting** for code editing
+- **Visual feedback** on copy actions
+
+---
+
+## 📤 File Support
+
+DevKit supports drag & drop file processing:
+
+- **JSON files** - Drop to auto-load content
+- **CSV files** - Analyze and convert data
+- **Text files** - Process any text format
+- **Instant processing** - No upload to server required
 
 ---
 
@@ -151,6 +212,35 @@ Your data privacy is our top priority:
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
+### How to Add New Tools
+
+1. **Create the tool page** - Add a new folder in `src/app/[tool-name]/`
+2. **Use the tool layout** - Import and wrap with the tool layout component
+3. **Follow the patterns** - Use consistent UI components (TextArea, buttons)
+4. **Add to navigation** - Update the tools list in `src/utils/tools.ts`
+5. **Test thoroughly** - Ensure the tool works correctly
+
+### Component Patterns
+
+```tsx
+// Standard tool page structure
+import ToolLayout from '@/components/ToolLayout';
+import TextArea from '@/components/TextArea';
+
+export default function ToolPage() {
+  return (
+    <ToolLayout title="Tool Name" description="Tool description">
+      <TextArea 
+        placeholder="Enter input..."
+        value={input}
+        onChange={setInput}
+      />
+      {/* Tool functionality */}
+    </ToolLayout>
+  );
+}
+```
+
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -161,13 +251,14 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📈 Roadmap
 
-- [ ] Add 50+ more tools
-- [ ] Implement tool favorites/bookmarks
-- [ ] Add keyboard shortcuts
+- [x] Add 50+ more tools
+- [x] Implement tool favorites/bookmarks
+- [x] Add keyboard shortcuts
 - [ ] Create browser extension
 - [ ] Add tool history
 - [ ] Implement cloud sync (optional)
 - [ ] Add team collaboration features
+- [ ] Add mobile app
 
 ---
 
@@ -185,7 +276,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
+<div align="center>
 
 ### ⭐ Star us on GitHub — it motivates us a lot!
 

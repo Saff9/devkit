@@ -1,16 +1,32 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import { FavoritesProvider, ThemeProvider } from "@/context/FavoritesContext";
+
+// Security headers configuration
+export const headers = () => [
+  { key: 'X-Content-Type-Options', value: 'nosniff' },
+  { key: 'X-Frame-Options', value: 'DENY' },
+  { key: 'X-XSS-Protection', value: '1; mode=block' },
+  { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+  { key: 'Permissions-Policy', value: 'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()' },
+  { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+];
+
+// Generate static params for all tool pages
+export function generateStaticParams() {
+  const { tools } = require('@/utils/tools');
+  return tools.map((tool: { id: string }) => ({ id: tool.id }));
+}
 
 export const metadata: Metadata = {
-  title: "DevKit - 30+ Free Developer Tools | JSON Formatter, JWT Decoder, Regex Tester",
-  description: "DevKit is a collection of 30+ free, privacy-focused developer tools. Format JSON, decode JWTs, test regex, generate passwords, convert colors, and more. 100% client-side, no data leaves your browser.",
+  title: "DevKit - 50+ Free Developer Tools | JSON Formatter, JWT Decoder, Regex Tester",
+  description: "DevKit is a collection of 50+ free, privacy-focused developer tools. Format JSON, decode JWTs, test regex, generate passwords, convert colors, and more. 100% client-side, no data leaves your browser.",
   keywords: "developer tools, json formatter, jwt decoder, regex tester, base64 encoder, url encoder, password generator, uuid generator, hash generator, color picker, gradient generator, markdown preview, diff checker, timestamp converter, web developer tools, programming tools, code formatter",
   authors: [{ name: "DevKit" }],
   creator: "DevKit",
   publisher: "DevKit",
   robots: "index, follow",
-  metadataBase: new URL("https://devkit-peach.vercel.app"),
   alternates: {
     canonical: "/",
   },
@@ -19,26 +35,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://devkit-peach.vercel.app",
     siteName: "DevKit",
-    title: "DevKit - 30+ Free Developer Tools",
+    title: "DevKit - 50+ Free Developer Tools",
     description: "Free, privacy-focused developer tools. JSON formatter, JWT decoder, regex tester, password generator & more. 100% client-side.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "DevKit - Developer Tools Collection",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "DevKit - 30+ Free Developer Tools",
+    title: "DevKit - 50+ Free Developer Tools",
     description: "Free, privacy-focused developer tools. 100% client-side, no data leaves your browser.",
-    images: ["/og-image.png"],
     creator: "@devkit",
-  },
-  verification: {
-    google: "your-google-verification-code",
   },
   category: "Developer Tools",
 };
@@ -61,8 +65,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+        <link rel="apple-touch-icon" href="/icon-192.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -102,14 +106,17 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-white antialiased">
-        <div className="fixed inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] pointer-events-none" />
-        <div className="relative z-10">
-          <Header />
-          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            {children}
-          </main>
-        </div>
+      <body className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-white antialiased gpu-accelerated will-change-transform">
+        <ThemeProvider>
+          <FavoritesProvider>
+            <div className="relative z-10">
+              <Header />
+              <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                {children}
+              </main>
+            </div>
+          </FavoritesProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
